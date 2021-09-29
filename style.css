@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    position: relative;
+    font-family: 'Alata', sans-serif;
+    font-size: 18px;
+/* font-family: 'Josefin Sans', sans-serif; */
+}
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.hero{
+    background-image: url(images/desktop/image-hero.jpg) ;
+    
+    background-size: cover;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    height: 300px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-ul{
+    list-style: none;
+    display: flex;
+}
+.nav-ul li {
+    margin-right: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 5px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.banner{
+    margin-top: 20px;
+    outline:solid #fff;
+    outline-offset: 10px;
+    display: grid;
+    place-items: center;
+}
+.banner-text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+   
+}
+.first-grid{
+    display: grid;
+    width: 100vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    
+}
+.see-more{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10vw;
+}
+.second-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 10vw;
+}
+
+
+
+
+
+
+
+
+/* footer */
+.footer{
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    padding: 0 10vw;
+}
+.footer-ul{
+    list-style: none;
+}
